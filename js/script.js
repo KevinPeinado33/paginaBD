@@ -2,6 +2,22 @@
 * Aqui comienza la parte mi script
 * Dueño: raul peinado
 */
+//de diego :,v
+const sideNav = document.querySelector('.sidenav');
+M.Sidenav.init(sideNav,{});
+
+const slider = document.querySelector('.slider');
+M.Slider.init(slider,{
+    indicators:false,
+    height:600,
+    transition:500,
+    interval:5500
+    
+});
+
+
+
+
 function mostrarBuffet1(){
 	var x = document.getElementById("pant");
 	x.setAttribute('src', 'buffet1.html')
