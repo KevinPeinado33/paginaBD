@@ -13,31 +13,31 @@ var listaBuffet1=[];
 var objcomida1={
 	"nombre":"Pollo a la Brasa",
 	"cantidad": 12,
-	"cocinero":"Marco Buleggi"
-	"costo": 18.5
+	"cocinero":"Marco Buleggi",
+	"costo": 18.5,
 	"Calidad": "premium"
 }
 var objcomida1={
 	"nombre":"Arroz con pollo",
-	"cantidad": 12,
-	"cocinero":"Marco Buleggi"
-	"costo": 18.5
+	"cantidad": 14,
+	"cocinero":"Marco Buleggi",
+	"costo": 24.70,
 	"Calidad": "premium"
 }
 
 var objcomida1={
-	"nombre":"Pollo a la Brasa",
-	"cantidad": 12,
-	"cocinero":"Marco Buleggi"
-	"costo": 18.5
+	"nombre":"Aji de gallina",
+	"cantidad": 8,
+	"cocinero":"Marco Buleggi",
+	"costo": 12,
 	"Calidad": "premium"
 }
 
 var objcomida1={
-	"nombre":"Pollo a la Brasa",
-	"cantidad": 12,
-	"cocinero":"Marco Buleggi"
-	"costo": 18.5
+	"nombre":"Escabeche de pescado",
+	"cantidad": 30,
+	"cocinero":"Marco Buleggi",
+	"costo": 6.5,
 	"Calidad": "premium"
 }
 
