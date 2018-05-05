@@ -1,25 +1,284 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        .waves-effect waves-light btn-large {
+            font-family: 'Fira Sans Extra Condensed', sans-serif;
+        }
+    </style>
+
 </head>
+
 <body>
-	
-	<h1>Buffet's</h1>
+
+
+    <div class="navbar-fixed ">
+        <nav class=" blue-grey darken-3">
+            <div class="container" style="font-family:'Lobster', cursive;">
+                <a href="#!" class="brand-logo">Rick Buffets</a>
+            </div>
+
+            <ul class="right hide-on-med-and-down">
+
+                <li><a href="" style="font-family: 'Fira Sans Extra Condensed', sans-serif;"><i class="material-icons right" >account_circle</i>Iniciar sesion</a></li>
+                <li><a href="" style="font-family: 'Fira Sans Extra Condensed', sans-serif;"><i class="material-icons right">chrome_reader_mode</i>Reservar</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- esto es el slider :,v-->
+
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/4.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Gran variedad de buffets</h1>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur.</h5>
+                    <a class="waves-effect waves-light btn-large">ver buffets</a>
+
+                </div>
+            </li>
+
+            <li>
+                <img src="images/1.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Promociones para nuestros clientes</h1>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur.</h5>
+                    <a class="waves-effect waves-light btn-large">Saber mas</a>
+                </div>
+            </li>
+            <li>
+                <img src="images/2.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Reserva Facil y eficas</h1>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam itaque impedit, autem alias dolores, velit facere rem expedita voluptates ipsum dolore. Dolorem nihil vel consequuntur ducimus iusto nesciunt sint quia!</h5>
+                    <div class="container">
+                        <a class="waves-effect waves-light btn-large">Reserva aqui</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="images/3.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Sistema de atencion novedoso</h1>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+                    <a class="waves-effect waves-light btn-large">Saber mas</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+
+    <!--los paneles :,v-->
+
+    <section class="section section-icons grey lighten-4 center">
+        <div class="conteiner">
+            <div class="row">
+                <div class="col s12 m4">
+
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/1.jpg">
+
+                            <span class="card-title activator white-text text-white grey darken-4" style="font-family: 'Fira Sans Extra Condensed', sans-serif;">Buffets</span>
+
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Locales<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <p><a href="#">Le interesa saber mas</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/locoo.jpg">
+
+                            <span class="card-title grey darken-4 activator white-text text-white" style="font-family: 'Fira Sans Extra Condensed', sans-serif;">Servicios</span>
+
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Servicios<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <p><a href="#">Le interesa saber mas</a></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col s12 m4">
+
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/lol.jpg">
+
+                            <span class="card-title grey darken-4 activator white-text text-white" style="font-family: 'Fira Sans Extra Condensed', sans-serif;">Servicios</span>
+
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Servicios<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <p><a href="#">Le interesa saber mas</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
 
 
 
 
 
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--Recomendaciones-->
+    <nav class=" blue-grey darken-3"></nav>
+
+
+    <div class="row">
+
+        <div class="col s12 m4 ">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="images/persona1.jpg" alt="" class="circle responsive-img">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                        <span class="black-text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos beatae, voluptatum reiciendis dolorum itaque, quod est consectetur dolore officia animi cupiditate aut. Id laudantium vero suscipit, minus nam ducimus placeat.
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col s12 m4 ">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="images/persona2.jpg" alt="" class="circle responsive-img">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                        <span class="black-text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, expedita a, quas repellat consequatur praesentium quidem enim cupiditate. Voluptas a ipsa praesentium deleniti voluptate ex pariatur alias vero nulla tempora.
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4 ">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="images/persona2.jpg" alt="" class="circle responsive-img">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10">
+                        <span class="black-text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, expedita a, quas repellat consequatur praesentium quidem enim cupiditate. Voluptas a ipsa praesentium deleniti voluptate ex pariatur alias vero nulla tempora.
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+  
+
+
+
+
+
+
+    <!-- footer -->
+
+    <footer class="page-footer blue-grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+
+                    <ul>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col share facebook">
+                                    <i class=" col fa fa-facebook" aria-hidden="true"></i>
+                                </div>
+                                <div class="col share twitter">
+                                    <i class="col fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
+
 </html>
