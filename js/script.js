@@ -17,7 +17,7 @@ var objcomida1={
 	"costo": 18.5,
 	"Calidad": "premium"
 }
-var objcomida1={
+var objcomida2={
 	"nombre":"Arroz con pollo",
 	"cantidad": 14,
 	"cocinero":"Marco Buleggi",
@@ -25,7 +25,7 @@ var objcomida1={
 	"Calidad": "premium"
 }
 
-var objcomida1={
+var objcomida3={
 	"nombre":"Aji de gallina",
 	"cantidad": 8,
 	"cocinero":"Marco Buleggi",
@@ -33,7 +33,7 @@ var objcomida1={
 	"Calidad": "premium"
 }
 
-var objcomida1={
+var objcomida4={
 	"nombre":"Escabeche de pescado",
 	"cantidad": 30,
 	"cocinero":"Marco Buleggi",
@@ -41,7 +41,28 @@ var objcomida1={
 	"Calidad": "premium"
 }
 
+var objcomida5={
+	"nombre":"Lomo saltado",
+	"cantidad": 30,
+	"cocinero":"Marco Buleggi",
+	"costo": 25,
+	"Calidad": "premium"
+}
 
+listaBuffet1.push(objcomida1);
+listaBuffet1.push(objcomida2);
+listaBuffet1.push(objcomida3);
+listaBuffet1.push(objcomida4);
+listaBuffet1.push(objcomida5);
+console.log(JSON.stringify(listaBuffet1));
+
+function listarComidas(){
+	
+	var mapiando = listaBuffet1.map(function(bar) {
+		
+	})
+	alert("hola mundo");
+}
 /**
 * Termina la parte mi script
 * Dueño: raul peinado
