@@ -1,0 +1,14 @@
+*{
+	margin: 0 auto;
+}
+
+#cuerpo{
+	width: 900px;
+	height: 600px;
+	background-color: #E9E6DD;
+}
+
+#pant{
+	width: 100%;
+	height: 537px;
+}

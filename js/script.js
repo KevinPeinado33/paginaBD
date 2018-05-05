@@ -1,1 +1,4 @@
-alert("Hola :v")
+function mostrarBuffet1(){
+	alert("hola");
+}
+
