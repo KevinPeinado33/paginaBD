@@ -247,6 +247,19 @@ function listarB3(){
 
 //termino para el buffet3
 
+//metodo para validar el usuario
+ function validarUsuario(){
+ 	var usu = document.getElementById("username").value;
+ 	var pass = document.getElementById("contraseña").value;
+
+ 	if (usu === "comprador" && pass === "root") {
+ 		alert("bien");
+ 		window.open("indexRaul.html");
+ 	}else{
+ 		alert("mal");
+ 	}
+ }
+
 /**
 * Termina la parte mi script
 * Dueño: raul peinado
