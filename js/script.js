@@ -3,7 +3,7 @@
 * Dueño: raul peinado
 */
 //de diego :,v
-/**const sideNav = document.querySelector('.sidenav');
+const sideNav = document.querySelector('.sidenav');
 M.Sidenav.init(sideNav,{});
 
 const slider = document.querySelector('.slider');
@@ -13,18 +13,18 @@ M.Slider.init(slider,{
     transition:500,
     interval:5500
     
-});*/
+});
 
 
 
 
 function mostrarBuffet1(){
-	var x = document.getElementById("pant");
-	x.setAttribute('src', 'buffet1.html')
+	var x = document.getElementBy Id("pant");
+	x.setAttribute('src', 'buffet1.html');
 }
 function mostrarBuffet2(){
 	var x = document.getElementById("pant");
-	x.setAttribute('src', 'buffet2.html')
+	x.setAttribute('src', 'buffet2.html');
 }
 function mostrarBuffet3(){
 	var x = document.getElementById("pant");
